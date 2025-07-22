@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FormDocument</title>
+</head>
+<body  text="aqua" >
+    <form >
+    
+        <style>
+            .formcontainer{
+                width:50%;
+                margin:40px;
+                background-color: teal;
+                padding:20px;
+                border:1px solid #ccc;
+                border-radius:10px;
+            }
+            .formfield input[type="text"], .formfield input[type="email"], .formfield input[type="date"], .formfield input[type="password"]
+            {
+                width:40%;
+                height:20px;
+                padding:5px;
+                border:none;
+                border-radius:5px;
+            }
+            .genderoptions{
+                margin-bottom:15px;
+                display:inline-block;
+                margin-right:150px;
+            }
+            .registerbtn{
+                width:25%;
+                height:30px;
+                background-color:aquamarine;
+                padding:10px;
+                border:none;
+                border-radius:5px;
+                
+                
+            }
+            
+            
+        </style>
+        <div class="formcontainer">
+            <h1 align="center">Student Registration Form</h1>
+            <p align="center"> Fill in this form to register</p><br>
+            <div class="formfield">
+                <label for="firstname"><b>First Name:</b></label>
+                <input type="text" name="firstname" id="firstname" placeholder="Enter firstname"><br><br>
+                <label for="lastname"><b>Last Name:</b></label>
+                <input type="text" name="lastname" id="lastname" placeholder="Enter lastname"><br><br>
+                <label for="email"><b>E-mail:</b></label>
+                <input type="text" name="email" id="email" placeholder="Enter Email"><br><br>
+                <label for="dob"><b>Date of Birth:</b></label>
+                <input type="date" name="dob" id="dob"><br><br>
+                <label for="username"><b>Set Username:</b></label>
+                <input type="text" name="username" id="username" placeholder="Set username"><br><br>
+                <label for="user-pwd"><b>Set Password:</b></label>
+                <input type="password" name="user password" id="user-pwd" placeholder="set password"><br><br>
+
+            </div>
+            
+            
+            <div class="genderoptions"> 
+                <label><b>Gender:</b></label><br>
+            
+        
+                    <input type="radio" name="gender" id="male">Male<br>
+                    <input type="radio" name="gender" id="female">Female<br>
+                    <input type="radio" name="gender" id="others">Others<br><br>
+        
+            </div>
+            <div class="formfield">
+                <label for="course"><b>Course:</b></label>
+                <select name="course" id="course">
+                    <option value="B.tech">B.tech</option>
+                    <option value="MBA">MBA</option>
+                    <option value="BSc">BSc</option>
+                    <option value="others">Others</option>
+                </select>
+
+            </div>
+            <div align="center">
+                <input type="submit" class="registerbtn" value="Register">
+            </div>
+        
+                
+            
+            
+
+        </div>
+      
+
+        
+        
+
+        
+        
+        
+    </form>
+        
+
+
+
+
+
+
+        
+
+
+    </form>
+   
+    
+</body>
+</html>
